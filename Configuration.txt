@@ -69,7 +69,7 @@
 "USD_TRY",
 "USD_ZAR",
 "ZAR_JPY",],
-"FOREX TOKEN":"b14ca133f87d5830690dff7ead123e1c-dab83b0b7be5f9f44465b7dea96f5e11",
+"FOREX TOKEN":"",
 "Query time in minutes": 0.1,
 "Number of candles": 30,
 "BUY RSI TRESHOLD":35,
@@ -81,4 +81,4 @@
 "START DATE AND TIME":"auto" ,     # option 1:"auto",   #option 2 format: "2021-03-05 14:05:00",
 "END DATE AND TIME":"present",     #option 1:"present",   ##option 2 format: "2021-03-05 17:30:00",
 "time frames":['1Minutes','5Minutes','15Minutes'],#'1Hour', '4Hour', '1Day'],
-"Email address": ["dreamtheatercoversjp@gmail.com"]}
+"Email address": [""]}
