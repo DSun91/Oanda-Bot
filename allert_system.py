@@ -2,10 +2,9 @@ import smtplib
 
 
 def send_Email(message, receiver, SUBJECT="STOCK MARKET PATTERN ALLERT"):
-    sender ='stcstockmarketallert@gmail.com'
-    password = "12345678STC@5"
-    #sender = "suntradingbotalert@gmail.com"
-    #password = "JesusistheLord@5"
+    sender =''
+    password = ""
+ 
     email = ' '.join([str(elem) for elem in message])
     email = 'Subject: {}\n\n{}'.format(SUBJECT, email)
     server = smtplib.SMTP('smtp.gmail.com', 587)
