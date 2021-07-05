@@ -6,7 +6,7 @@ def place_buy_order(symb,price,units,stop_loss_on_fill=None):
     import requests
     import json
 
-    TOKEN="b14ca133f87d5830690dff7ead123e1c-dab83b0b7be5f9f44465b7dea96f5e11"
+    TOKEN=""
     API = "https://api-fxpractice.oanda.com"
     candles_path = f"/v3/accounts"
     header = {"Authorization": "Bearer " + TOKEN}
@@ -17,7 +17,7 @@ def place_buy_order(symb,price,units,stop_loss_on_fill=None):
 
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "Bearer b14ca133f87d5830690dff7ead123e1c-dab83b0b7be5f9f44465b7dea96f5e11"
+        "Authorization": ""
     }
     data = {
 
